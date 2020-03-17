@@ -11,8 +11,8 @@
 
 You've been tasked with building a Rails app called **Beats by Rails**, the app will need to have three separate models:
 
-* Songs
-
+* Songs 
+ 
 * Artists
 
 * Genres
@@ -40,7 +40,7 @@ table "artists"
 table "genres"
   string   "name"
 
-table "songs"
+table "songs" 
   string   "name"
   integer  "artist_id"
   integer  "genre_id"
